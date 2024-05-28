@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet2pallete5.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="sidebar">
+        <ul>
+          <li class="nav-item active">Dashboard</li>
+          <li class="nav-item">Buildings</li>
+          <li class="nav-item">Tenants</li>
+          <li class="nav-item">Reports</li>
+          <li class="nav-item">Parking</li>
+          <li class="nav-item">Services</li>
+          <li class="nav-item">Subcontractors</li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="widget">
+          <h2>Payments</h2>
+          <p>$223,600 Rent</p>
+          <p>$24,840 Additional services</p>
+          <p>$31,840 Maintenance</p>
+          <p>$16,485 Debt</p>
+        </div>
+        <div class="widget">
+          <h2>New Requests</h2>
+          <p>Cora Richards - Unit 543</p>
+          <p>Alistair Dunlop - Unit 312</p>
+          <p>Bibi Shelton - Unit 340B</p>
+        </div>
+        <div class="widget">
+          <h2>Delayed Work Orders</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Order</th>
+                <th>Unit</th>
+                <th>Type</th>
+                <th>Assigned To</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>P-1925</td>
+                <td>Unit 304</td>
+                <td>Plumbing</td>
+                <td>Addie Bradford</td>
+                <td class="status urgent">Urgent</td>
+              </tr>
+              <tr>
+                <td>H-482</td>
+                <td>Unit 294</td>
+                <td>HVAC</td>
+                <td>Cora Williams</td>
+                <td class="status high">High</td>
+              </tr>
+              <tr>
+                <td>G-3921</td>
+                <td>Unit 1064</td>
+                <td>General maintenance</td>
+                <td>Trent Marlow</td>
+                <td class="status normal">Normal</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+      <div class="content">
+        <div class="card">
+          <div class="card-header">Card Title</div>
+          <div class="card-body">
+            This is some text within a card body. Cards can be used to organize information into clear, distinct sections.
+          </div>
+          <div class="card-footer">
+            <button>Action 1</button>
+            <button>Action 2</button>
+          </div>
+        </div>
+      
+        <div class="card">
+          <div class="card-header">Another Card</div>
+          <div class="card-body">
+            This is another card with different content. Cards are flexible and can contain any type of content.
+          </div>
+          <div class="card-footer">
+            <button>Learn More</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="compact-card">
+        <img src="./frames-for-your-heart-mR1CIDduGLc-unsplash.jpg" alt="Unit Image">
+        <div class="compact-card-content">
+          <div class="compact-card-header">Unit 2138</div>
+          <div class="compact-card-body">
+            $2,340 / month<br>
+            1280 sqft<br>
+            Available: 31 Aug 2023
+          </div>
+        </div>
+      </div>
+      
+      <div class="compact-card">
+        <img src="./frames-for-your-heart-mR1CIDduGLc-unsplash.jpg" alt="Unit Image">
+        <div class="compact-card-content">
+          <div class="compact-card-header">Unit 639</div>
+          <div class="compact-card-body">
+            $2,300 / month<br>
+            1180 sqft<br>
+            Available: 24 Aug 2023
+          </div>
+        </div>
+      </div>
+      
+      <div class="compact-card">
+        <img src="unit-image-3.jpg" alt="Unit Image">
+        <div class="compact-card-content">
+          <div class="compact-card-header">Unit 022</div>
+          <div class="compact-card-body">
+            $2,200 / month<br>
+            1100 sqft<br>
+            Available: 15 Sep 2023
+          </div>
+        </div>
+      </div>
+
+      <div class="image-top-card">
+        <img src="./frames-for-your-heart-mR1CIDduGLc-unsplash.jpg" alt="Card Image">
+        <div class="image-top-card-content">
+          <div class="image-top-card-header">Card Title</div>
+          <div class="image-top-card-body">
+            This is some example text content for the card. It provides additional details and context.
+          </div>
+          <div class="image-top-card-footer">
+            <button>Button 1</button>
+            <button>Button 2</button>
+          </div>
+        </div>
+        <div class="image-top-card-metrics">
+          <canvas id="metricsGraph"></canvas>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+        var ctx = document.getElementById('metricsGraph').getContext('2d');
+        var chart = new Chart(ctx, {
+            type: 'line',
+            data: {
+            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+            datasets: [{
+                label: 'Metrics',
+                backgroundColor: '#48ffd5',
+                borderColor: '#04223c',
+                data: [10, 20, 30, 40, 50, 60, 70]
+            }]
+            },
+            options: {
+            responsive: true,
+            maintainAspectRatio: false
+            }
+        });
+        </script>
+
+      </div>
+      
+      
+</body>
+</html>

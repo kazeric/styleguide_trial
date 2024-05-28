@@ -1,0 +1,82 @@
+Color Palette
+    Primary Color: #48ffd5 (Light Teal)
+    Secondary Color: #04223c (Dark Blue)
+    Accent Color: #34d1bf (Medium Teal)
+    Background Color: #e0f7f4 (Light Teal Tint)
+    Text Color: #021523 (Very Dark Blue)
+    Border Color: #d1e0e0 (Light Grey)
+Typography
+    Font Family: 'Inter', Arial, sans-serif
+    Base Font Size: 16px
+    Header Font Size: 24px
+    Widget Header Font Size: 18px
+    Card Header Font Size: 18px
+    Compact Card Header Font Size: 16px
+    Body Font Size: 14px
+    Font Weight (Bold): 700
+Header
+    Background Color: #FFFFFF
+    Border Bottom: 1px solid #d1e0e0
+    Padding: 20px
+    Logo Font Size: 24px
+    Navigation Gap: 20px
+Sidebar
+    Background Color: #e0f7f4
+    Padding: 15px
+    Nav Item Padding: 10px
+    Nav Item Margin Bottom: 10px
+    Nav Item Font Size: 16px
+    Active Nav Item Font Weight: Bold
+Widget
+    Background Color: #FFFFFF
+    Border: 1px solid #d1e0e0
+    Padding: 20px
+    Margin Bottom: 20px
+    Border Radius: 8px
+    Header Font Size: 18px
+    Header Margin Bottom: 10px
+Buttons
+    Background Color: #48ffd5
+    Text Color: #04223c
+    Padding: 10px 20px
+    Border: None
+    Border Radius: 4px
+    Hover Background Color: #34d1bf
+Status Indicators
+    Urgent: #FF0000
+    High: #FFA500
+    Normal: #10B981
+Tables
+    Width: 100%
+    Border Collapse: Collapse
+    Cell Padding: 10px
+    Text Align: Left
+    Header Background Color: #d1e0e0
+    Even Row Background Color: #e0f7f4
+Card
+    Background Color: #FFFFFF
+    Border: 1px solid #d1e0e0
+    Border Radius: 8px
+    Padding: 20px
+    Margin Bottom: 20px
+    Box Shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+    Header Font Size: 18px
+    Header Margin Bottom: 10px
+    Body Font Size: 14px
+    Body Color: #021523
+Compact Card
+    Display: Flex
+    Background Color: #FFFFFF
+    Border: 1px solid #d1e0e0
+    Border Radius: 8px
+    Padding: 10px
+    Margin Bottom: 20px
+    Box Shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+    Image Width: 80px
+    Image Height: 80px
+    Image Border Radius: 8px
+    Image Margin Right: 15px
+    Header Font Size: 16px
+    Header Margin Bottom: 5px
+    Body Font Size: 14px
+    Body Color: #021523

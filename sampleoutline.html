@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="sampleoutline.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <div class="logo">Dashboard</div>
+    <div class="nav-links">
+        <a href="#">Dashboard</a>
+        <a href="#">Buildings</a>
+        <a href="#">Tenants</a>
+        <a href="#">Reports</a>
+        <a href="#">Parking</a>
+        <a href="#">Services</a>
+        <a href="#">Subcontractors</a>
+    </div>
+    <div class="profile">
+        <img src="./frames-for-your-heart-mR1CIDduGLc-unsplash.jpg" alt="Profile" class="profile-img">
+    </div>
+</div>
+
+<!-- Sidebar -->
+<div class="sidebar">
+    <a href="#" class="nav-item active">Overview</a>
+    <a href="#" class="nav-item">Work Orders</a>
+    <a href="#" class="nav-item">Rent</a>
+    <a href="#" class="nav-item">Collection</a>
+    <a href="#" class="nav-item">Access</a>
+</div>
+
+<!-- Content -->
+<div class="content">
+    <div class="widget">
+        <h2>Widget Title</h2>
+        <p>This is a sample widget with some example content.</p>
+    </div>
+
+    <!-- Image Top Card Example -->
+    <div class="image-top-card">
+        <img src="./frames-for-your-heart-mR1CIDduGLc-unsplash.jpg" alt="Example Image">
+        <div class="image-top-card-content">
+            <div class="image-top-card-header">Card Title</div>
+            <div class="image-top-card-body">
+                This is some example text content for the card. It provides additional details and context.
+            </div>
+            <div class="image-top-card-footer">
+                <button>Button 1</button>
+                <button>Button 2</button>
+            </div>
+        </div>
+        <div class="image-top-card-metrics">
+            <canvas id="metricsGraph"></canvas>
+        </div>
+    </div>
+</div>
+
+<script>
+    var ctx = document.getElementById('metricsGraph').getContext('2d');
+    var chart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+            datasets: [{
+                label: 'Metrics',
+                backgroundColor: '#48ffd5',
+                borderColor: '#04223c',
+                data: [10, 20, 30, 40, 50, 60, 70]
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false
+        }
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,187 @@
+/* General */
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: #ECFDF5;
+    color: #065F46;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E2E6EA;
+  }
+  
+  .header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header .profile {
+    border-radius: 50%;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    padding: 15px;
+    background-color: #ECFDF5;
+  }
+  
+  .sidebar .nav-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .sidebar .nav-item.active {
+    font-weight: bold;
+  }
+  
+  /* Content */
+  .content {
+    padding: 20px;
+  }
+  
+  .widget {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E6EA;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .widget h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #10B981;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #059669;
+  }
+  
+  /* Status Indicators */
+  .status.urgent {
+    color: #FF0000;
+  }
+  
+  .status.high {
+    color: #FFA500;
+  }
+  
+  .status.normal {
+    color: #10B981;
+  }
+  
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table thead {
+    background-color: #E2E6EA;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #ECFDF5;
+  }
+  
+  /* Card Styles */
+  .card {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E6EA;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-body {
+    font-size: 14px;
+    color: #065F46;
+    margin-bottom: 10px;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .card-footer button {
+    background-color: #10B981;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .card-footer button:hover {
+    background-color: #059669;
+  }
+  
+  /* Compact Card Styles */
+  .compact-card {
+    display: flex;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E6EA;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+  
+  .compact-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  .compact-card-content {
+    flex: 1.
+  }
+  
+  .compact-card-header {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .compact-card-body {
+    font-size: 14px;
+    color: #065F46;
+  }
+  
