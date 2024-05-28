@@ -1,4 +1,24 @@
-Color Palette
+Other Color Palette
+    Palette 2: Cool Blues (Fixed Text Color)
+        Primary: #3B82F6 (Blue)
+        Secondary: #0EA5E9 (Light Blue)
+        Accent: #60A5FA (Sky Blue)
+        Background: #F1F5F9 (Light Gray)
+        Text: #1E293B (Dark Gray-Blue)
+    Palette 3: Warm Reds and Oranges
+        Primary: #F97316 (Orange)
+        Secondary: #EA580C (Dark Orange)
+        Accent: #FB923C (Light Orange)
+        Background: #FFF7ED (Very Light Orange)
+        Text: #7C2D12 (Dark Brown)
+    Palette 4: Greens and Teals
+        Primary: #10B981 (Green)
+        Secondary: #059669 (Dark Green)
+        Accent: #34D399 (Light Green)
+        Background: #ECFDF5 (Very Light Green)
+        Text: #065F46 (Dark Teal)
+
+Color Palette 5:
     Primary Color: #48ffd5 (Light Teal)
     Secondary Color: #04223c (Dark Blue)
     Accent Color: #34d1bf (Medium Teal)
